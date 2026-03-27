@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Ekaterina%20Boichuk&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=QA%20Engineer%20%7C%20Fullstack%20Developer&descAlignY=55&descSize=18" width="100%"/>
 
 <!-- Анимированный typing заголовок -->
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=2500&pause=400&color=FF6EC7&center=true&vCenter=true&width=700&lines=🐱+Welcome+to+my+GitHub+profile!;🔍+QA+Engineer+who+breaks+things+on+purpose;💻+Fullstack+Developer+%7C+Bank+Tech;🌈+Code+%7C+Test+%7C+Deploy+%7C+Repeat;✨+Bug+hunter+by+day%2C+coder+by+night" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=2500&pause=400&color=FF6EC7&center=true&vCenter=true&width=700&lines=🐱+Welcome+to+my+GitHub+profile!;🔍+QA+Engineer+%7C+Automation+QA;☕+Java+%7C+TypeScript+%7C+Python;🤖+Test+automation+is+my+superpower;✨+Bug+hunter+by+day%2C+coder+by+night" alt="Typing SVG" />
 
 <!-- Кошечка -->
 <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="220" alt="Nyan Cat"/>
@@ -19,11 +19,12 @@
 </div>
 ```yaml
 name: Ekaterina Boichuk
-role: QA Engineer & Fullstack Developer
+role: QA Engineer & Automation QA Engineer
 workplace: Bank 🏦
+languages: [Java, TypeScript, Python]
 mission: Find bugs before users do 🔍
-currently_learning: [test automation, API testing, everything 🌀]
-fun_fact: I test in production... carefully 👀
+tools: Selenium · Cypress · Postman · Allure
+fun_fact: I break things professionally 😄
 cat_status: animated ✅
 ```
 
@@ -41,14 +42,13 @@ cat_status: animated ✅
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
 
-### 💻 Frontend
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+### 💻 Languages
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-### ⚙️ Backend & DB
+
+### ⚙️ Tools
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
