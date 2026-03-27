@@ -4,6 +4,8 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=2500&pause=400&color=FF6EC7&center=true&vCenter=true&width=700&lines=🐱+Welcome+to+my+GitHub+profile!;🔍+QA+Engineer+%7C+Automation+QA;☕+Java+%7C+TypeScript+%7C+Python;🤖+Test+automation+is+my+superpower;✨+Bug+hunter+by+day%2C+coder+by+night" alt="Typing SVG" />
 
+<img src="cat-walk.svg" width="100%" alt="walking cat"/>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif"/>
   <source media="(prefers-color-scheme: light)" srcset="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif"/>
