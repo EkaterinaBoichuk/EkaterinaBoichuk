@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120">
+  <style>
+    .cat {
+      animation: walk 10s linear infinite;
+    }
+    @keyframes walk {
+      0%   { transform: translateX(-120px); }
+      100% { transform: translateX(950px); }
+    }
+    .leg1 { 
+      animation: leg-a 0.3s ease-in-out infinite alternate;
+      transform-origin: 52px 78px;
+    }
+    .leg2 { 
+      animation: leg-a 0.3s ease-in-out infinite alternate-reverse;
+      transform-origin: 62px 78px;
+    }
+    .leg3 { 
+      animation: leg-a 0.3s ease-in-out infinite alternate-reverse;
+      transform-origin: 32px 78px;
+    }
+    .leg4 { 
+      animation: leg-a 0.3s ease-in-out infinite alternate;
+      transform-origin: 42px 78px;
+    }
+    .tail {
+      animation: tail-wag 0.6s ease-in-out infinite alternate;
+      transform-origin: 22px 62px;
+    }
+    @keyframes leg-a {
+      0%   { transform: rotate(-25deg); }
+      100% { transform: rotate(25deg); }
+    }
+    @keyframes tail-wag {
+      0%   { transform: rotate(-15deg); }
+      100% { transform: rotate(15deg); }
+    }
+  </style>
+
+  <g class="cat">
+    <!-- Tail -->
+    <path class="tail" d="M22 65 Q5 50 8 35 Q12 22 20 38" 
+          stroke="#ffaacc" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+    <!-- Body -->
+    <ellipse cx="50" cy="68" rx="28" ry="17" fill="#ffaacc"/>
+
+    <!-- Head -->
+    <circle cx="78" cy="56" r="17" fill="#ffaacc"/>
+
+    <!-- Ears -->
+    <polygon points="68,41 62,53 74,53" fill="#ffaacc"/>
+    <polygon points="84,41 90,53 78,53" fill="#ffaacc"/>
+    <!-- Inner ears -->
+    <polygon points="68,44 64,52 72,52" fill="#ff88bb"/>
+    <polygon points="84,44 88,52 80,52" fill="#ff88bb"/>
+
+    <!-- Eyes -->
+    <ellipse cx="73" cy="54" rx="3" ry="3.5" fill="#222"/>
+    <ellipse cx="83" cy="54" rx="3" ry="3.5" fill="#222"/>
+    <!-- Eye shine -->
+    <circle cx="74" cy="53" r="1" fill="white"/>
+    <circle cx="84" cy="53" r="1" fill="white"/>
+
+    <!-- Nose -->
+    <polygon points="78,59 76,61 80,61" fill="#ff6699"/>
+
+    <!-- Whiskers -->
+    <line x1="62" y1="59" x2="78" y2="61" stroke="#aaa" stroke-width="1" opacity="0.7"/>
+    <line x1="62" y1="62" x2="78" y2="62" stroke="#aaa" stroke-width="1" opacity="0.7"/>
+    <line x1="94" y1="59" x2="78" y2="61" stroke="#aaa" stroke-width="1" opacity="0.7"/>
+    <line x1="94" y1="62" x2="78" y2="62" stroke="#aaa" stroke-width="1" opacity="0.7"/>
+
+    <!-- Mouth -->
+    <path d="M76 62 Q78 65 80 62" stroke="#ff6699" stroke-width="1.2" fill="none"/>
+
+    <!-- Legs -->
+    <rect class="leg1" x="49" y="78" width="6" height="16" rx="3" fill="#ffaacc"/>
+    <rect class="leg2" x="59" y="78" width="6" height="16" rx="3" fill="#ffaacc"/>
+    <rect class="leg3" x="29" y="78" width="6" height="16" rx="3" fill="#ffaacc"/>
+    <rect class="leg4" x="39" y="78" width="6" height="16" rx="3" fill="#ffaacc"/>
+
+    <!-- Paws -->
+    <ellipse cx="52" cy="94" rx="4" ry="2.5" fill="#ff88bb"/>
+    <ellipse cx="62" cy="94" rx="4" ry="2.5" fill="#ff88bb"/>
+    <ellipse cx="32" cy="94" rx="4" ry="2.5" fill="#ff88bb"/>
+    <ellipse cx="42" cy="94" rx="4" ry="2.5" fill="#ff88bb"/>
+  </g>
+</svg>
