@@ -1,89 +1,174 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 130" width="100%" height="130">
   <style>
-    .cat {
-      animation: walk 10s linear infinite;
+    .cat-group {
+      animation: walk 12s linear infinite;
     }
     @keyframes walk {
-      0%   { transform: translateX(-120px); }
-      100% { transform: translateX(950px); }
+      0%   { transform: translateX(-160px); }
+      100% { transform: translateX(960px); }
     }
-    .leg1 { 
-      animation: leg-a 0.3s ease-in-out infinite alternate;
-      transform-origin: 52px 78px;
+
+    /* Покачивание тела */
+    .body {
+      animation: body-bob 0.4s ease-in-out infinite alternate;
+      transform-origin: 55px 72px;
     }
-    .leg2 { 
-      animation: leg-a 0.3s ease-in-out infinite alternate-reverse;
-      transform-origin: 62px 78px;
+    @keyframes body-bob {
+      0%   { transform: translateY(0px); }
+      100% { transform: translateY(-3px); }
     }
-    .leg3 { 
-      animation: leg-a 0.3s ease-in-out infinite alternate-reverse;
-      transform-origin: 32px 78px;
+
+    /* Лапки */
+    .leg-fl {
+      animation: leg-f 0.4s ease-in-out infinite alternate;
+      transform-origin: 62px 84px;
     }
-    .leg4 { 
-      animation: leg-a 0.3s ease-in-out infinite alternate;
-      transform-origin: 42px 78px;
+    .leg-fr {
+      animation: leg-f 0.4s ease-in-out infinite alternate-reverse;
+      transform-origin: 72px 84px;
     }
+    .leg-bl {
+      animation: leg-b 0.4s ease-in-out infinite alternate-reverse;
+      transform-origin: 36px 84px;
+    }
+    .leg-br {
+      animation: leg-b 0.4s ease-in-out infinite alternate;
+      transform-origin: 46px 84px;
+    }
+    @keyframes leg-f {
+      0%   { transform: rotate(-22deg); }
+      100% { transform: rotate(22deg); }
+    }
+    @keyframes leg-b {
+      0%   { transform: rotate(-18deg); }
+      100% { transform: rotate(18deg); }
+    }
+
+    /* Хвост */
     .tail {
-      animation: tail-wag 0.6s ease-in-out infinite alternate;
-      transform-origin: 22px 62px;
+      animation: tail 1.2s ease-in-out infinite alternate;
+      transform-origin: 18px 68px;
     }
-    @keyframes leg-a {
-      0%   { transform: rotate(-25deg); }
+    @keyframes tail {
+      0%   { transform: rotate(-20deg); }
       100% { transform: rotate(25deg); }
     }
-    @keyframes tail-wag {
-      0%   { transform: rotate(-15deg); }
-      100% { transform: rotate(15deg); }
+
+    /* Моргание */
+    .eye-l, .eye-r {
+      animation: blink 4s ease-in-out infinite;
+    }
+    @keyframes blink {
+      0%, 90%, 100% { transform: scaleY(1); }
+      95%            { transform: scaleY(0.08); }
+    }
+    .eye-l { transform-origin: 76px 55px; }
+    .eye-r { transform-origin: 88px 55px; }
+
+    /* Тень */
+    .shadow {
+      animation: shadow-walk 12s linear infinite;
+    }
+    @keyframes shadow-walk {
+      0%   { transform: translateX(-160px); }
+      100% { transform: translateX(960px); }
+    }
+    .shadow-bob {
+      animation: shadow-size 0.4s ease-in-out infinite alternate;
+      transform-origin: 55px 100px;
+    }
+    @keyframes shadow-size {
+      0%   { transform: scaleX(1); opacity: 0.18; }
+      100% { transform: scaleX(0.88); opacity: 0.12; }
     }
   </style>
 
-  <g class="cat">
-    <!-- Tail -->
-    <path class="tail" d="M22 65 Q5 50 8 35 Q12 22 20 38" 
-          stroke="#ffaacc" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- Тень на полу -->
+  <g class="shadow">
+    <g class="shadow-bob">
+      <ellipse cx="55" cy="101" rx="38" ry="6" fill="#cc88aa"/>
+    </g>
+  </g>
 
-    <!-- Body -->
-    <ellipse cx="50" cy="68" rx="28" ry="17" fill="#ffaacc"/>
+  <g class="cat-group">
 
-    <!-- Head -->
-    <circle cx="78" cy="56" r="17" fill="#ffaacc"/>
+    <!-- Хвост -->
+    <g class="tail">
+      <path d="M20 70 Q2 52 6 34 Q10 18 22 32 Q16 48 20 70Z"
+            fill="#ff99cc" stroke="#ff77bb" stroke-width="1"/>
+      <!-- Кончик хвоста -->
+      <ellipse cx="13" cy="28" rx="6" ry="7" fill="white"/>
+    </g>
 
-    <!-- Ears -->
-    <polygon points="68,41 62,53 74,53" fill="#ffaacc"/>
-    <polygon points="84,41 90,53 78,53" fill="#ffaacc"/>
-    <!-- Inner ears -->
-    <polygon points="68,44 64,52 72,52" fill="#ff88bb"/>
-    <polygon points="84,44 88,52 80,52" fill="#ff88bb"/>
+    <!-- Задние лапки -->
+    <g class="leg-bl">
+      <rect x="33" y="83" width="7" height="18" rx="3.5" fill="#ff99cc"/>
+      <ellipse cx="36.5" cy="101" rx="5.5" ry="3" fill="#ff77bb"/>
+    </g>
+    <g class="leg-br">
+      <rect x="43" y="83" width="7" height="18" rx="3.5" fill="#ff99cc"/>
+      <ellipse cx="46.5" cy="101" rx="5.5" ry="3" fill="#ff77bb"/>
+    </g>
 
-    <!-- Eyes -->
-    <ellipse cx="73" cy="54" rx="3" ry="3.5" fill="#222"/>
-    <ellipse cx="83" cy="54" rx="3" ry="3.5" fill="#222"/>
-    <!-- Eye shine -->
-    <circle cx="74" cy="53" r="1" fill="white"/>
-    <circle cx="84" cy="53" r="1" fill="white"/>
+    <!-- Тело -->
+    <g class="body">
+      <!-- Основное тело -->
+      <ellipse cx="55" cy="72" rx="32" ry="20" fill="#ffbbdd"/>
+      <!-- Брюшко -->
+      <ellipse cx="58" cy="76" rx="18" ry="13" fill="#ffe0ee"/>
 
-    <!-- Nose -->
-    <polygon points="78,59 76,61 80,61" fill="#ff6699"/>
+      <!-- Передние лапки -->
+      <g class="leg-fl">
+        <rect x="59" y="83" width="7" height="18" rx="3.5" fill="#ff99cc"/>
+        <ellipse cx="62.5" cy="101" rx="5.5" ry="3" fill="#ff77bb"/>
+      </g>
+      <g class="leg-fr">
+        <rect x="69" y="83" width="7" height="18" rx="3.5" fill="#ff99cc"/>
+        <ellipse cx="72.5" cy="101" rx="5.5" ry="3" fill="#ff77bb"/>
+      </g>
 
-    <!-- Whiskers -->
-    <line x1="62" y1="59" x2="78" y2="61" stroke="#aaa" stroke-width="1" opacity="0.7"/>
-    <line x1="62" y1="62" x2="78" y2="62" stroke="#aaa" stroke-width="1" opacity="0.7"/>
-    <line x1="94" y1="59" x2="78" y2="61" stroke="#aaa" stroke-width="1" opacity="0.7"/>
-    <line x1="94" y1="62" x2="78" y2="62" stroke="#aaa" stroke-width="1" opacity="0.7"/>
+      <!-- Голова -->
+      <circle cx="82" cy="54" r="22" fill="#ffbbdd"/>
 
-    <!-- Mouth -->
-    <path d="M76 62 Q78 65 80 62" stroke="#ff6699" stroke-width="1.2" fill="none"/>
+      <!-- Ушки -->
+      <polygon points="66,34 60,50 73,50" fill="#ffbbdd"/>
+      <polygon points="94,34 100,50 87,50" fill="#ffbbdd"/>
+      <!-- Внутри ушек -->
+      <polygon points="66,37 62,49 71,49" fill="#ff99cc"/>
+      <polygon points="94,37 98,49 89,49" fill="#ff99cc"/>
 
-    <!-- Legs -->
-    <rect class="leg1" x="49" y="78" width="6" height="16" rx="3" fill="#ffaacc"/>
-    <rect class="leg2" x="59" y="78" width="6" height="16" rx="3" fill="#ffaacc"/>
-    <rect class="leg3" x="29" y="78" width="6" height="16" rx="3" fill="#ffaacc"/>
-    <rect class="leg4" x="39" y="78" width="6" height="16" rx="3" fill="#ffaacc"/>
+      <!-- Полоски на голове -->
+      <path d="M75 38 Q82 35 89 38" stroke="#ff88bb" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+      <path d="M73 43 Q82 40 91 43" stroke="#ff88bb" stroke-width="1.5" fill="none" stroke-linecap="round"/>
 
-    <!-- Paws -->
-    <ellipse cx="52" cy="94" rx="4" ry="2.5" fill="#ff88bb"/>
-    <ellipse cx="62" cy="94" rx="4" ry="2.5" fill="#ff88bb"/>
-    <ellipse cx="32" cy="94" rx="4" ry="2.5" fill="#ff88bb"/>
-    <ellipse cx="42" cy="94" rx="4" ry="2.5" fill="#ff88bb"/>
+      <!-- Глаза -->
+      <g class="eye-l">
+        <ellipse cx="76" cy="55" rx="4.5" ry="5" fill="#111"/>
+        <circle cx="77.5" cy="53.5" r="1.5" fill="white"/>
+        <circle cx="74.5" cy="56.5" r="0.8" fill="white"/>
+      </g>
+      <g class="eye-r">
+        <ellipse cx="88" cy="55" rx="4.5" ry="5" fill="#111"/>
+        <circle cx="89.5" cy="53.5" r="1.5" fill="white"/>
+        <circle cx="87.5" cy="56.5" r="0.8" fill="white"/>
+      </g>
+
+      <!-- Нос -->
+      <polygon points="82,61 79.5,64 84.5,64" fill="#ff5599"/>
+      <!-- Мордочка -->
+      <path d="M79.5 64 Q82 68 84.5 64" stroke="#ff5599" stroke-width="1.2" fill="none"/>
+
+      <!-- Усы левые -->
+      <line x1="60" y1="62" x2="78" y2="63" stroke="#dda0bb" stroke-width="1.2" stroke-linecap="round"/>
+      <line x1="59" y1="66" x2="78" y2="65" stroke="#dda0bb" stroke-width="1.2" stroke-linecap="round"/>
+      <!-- Усы правые -->
+      <line x1="104" y1="62" x2="86" y2="63" stroke="#dda0bb" stroke-width="1.2" stroke-linecap="round"/>
+      <line x1="105" y1="66" x2="86" y2="65" stroke="#dda0bb" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- Щёчки -->
+      <ellipse cx="72" cy="63" rx="5" ry="3" fill="#ffaacc" opacity="0.5"/>
+      <ellipse cx="92" cy="63" rx="5" ry="3" fill="#ffaacc" opacity="0.5"/>
+    </g>
+
   </g>
 </svg>
