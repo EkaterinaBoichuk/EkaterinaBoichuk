@@ -16,17 +16,15 @@
 
 ## 🐾 About Me
 
-</div>
-```yaml
-name: Ekaterina Boichuk
-role: QA Engineer & Automation QA Engineer
-workplace: Bank 🏦
-languages: [Java, TypeScript, Python]
-mission: Find bugs before users do 🔍
-tools: Selenium · Cypress · Postman · Allure
-fun_fact: I break things professionally 😄
-cat_status: animated ✅
-```
+| | |
+|---|---|
+| 👩‍💻 **Role** | QA Engineer & Automation QA Engineer |
+| 🏦 **Workplace** | Bank |
+| 💬 **Languages** | Java · TypeScript · Python |
+| 🔍 **Mission** | Find bugs before users do |
+| 🛠️ **Tools** | Selenium · Cypress · Postman · Allure |
+| 😄 **Fun fact** | I break things professionally |
+| 🐱 **Cat status** | animated ✅ |
 
 ---
 
