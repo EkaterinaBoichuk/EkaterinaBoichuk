@@ -62,8 +62,8 @@ cat_status: animated ✅
 
 ## 📊 GitHub Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=EkaterinaBoichuk&show_icons=true&theme=radical&hide_border=true&count_private=true&border_radius=15" height="170"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EkaterinaBoichuk&layout=compact&theme=radical&hide_border=true&border_radius=15" height="170"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=EkaterinaBoichuk&theme=radical" height="170"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=EkaterinaBoichuk&theme=radical" height="170"/>
 
 <br/>
 
