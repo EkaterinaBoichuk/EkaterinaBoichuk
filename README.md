@@ -61,14 +61,6 @@
 
 <div align="center">
 
-## 🏆 Trophies
-
-<img src="https://github-profile-trophy.vercel.app/?username=EkaterinaBoichuk&theme=radical&no-frame=true&row=1&column=6&margin-w=10"/>
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=3" width="100%"/>
-
 <div align="center">
 
 ## 📊 GitHub Stats
