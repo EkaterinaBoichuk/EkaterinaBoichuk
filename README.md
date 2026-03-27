@@ -2,15 +2,17 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Ekaterina%20Boichuk&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=QA%20Engineer%20%7C%20Automation%20QA&descAlignY=55&descSize=18" width="100%"/>
 
-<!-- Анимированный typing заголовок -->
 <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=2500&pause=400&color=FF6EC7&center=true&vCenter=true&width=700&lines=🐱+Welcome+to+my+GitHub+profile!;🔍+QA+Engineer+%7C+Automation+QA;☕+Java+%7C+TypeScript+%7C+Python;🤖+Test+automation+is+my+superpower;✨+Bug+hunter+by+day%2C+coder+by+night" alt="Typing SVG" />
 
-<!-- Кошечка -->
-<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="220" alt="Nyan Cat"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif"/>
+  <img width="220" src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="cat"/>
+</picture>
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=3" width="100%"/>
 
 <div align="center">
 
@@ -26,7 +28,9 @@
 | 😄 **Fun fact** | I break things professionally |
 | 🐱 **Cat status** | animated ✅ |
 
----
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=3" width="100%"/>
 
 <div align="center">
 
@@ -45,15 +49,25 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-
 ### ⚙️ Tools
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
+
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=3" width="100%"/>
+
+<div align="center">
+
+## 🏆 Trophies
+
+<img src="https://github-profile-trophy.vercel.app/?username=EkaterinaBoichuk&theme=radical&no-frame=true&row=1&column=6&margin-w=10"/>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=3" width="100%"/>
 
 <div align="center">
 
@@ -68,7 +82,17 @@
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=3" width="100%"/>
+
+<div align="center">
+
+## 📈 Activity Graph
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=EkaterinaBoichuk&theme=redical&hide_border=true&area=true&radius=8"/>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=3" width="100%"/>
 
 <div align="center">
 
@@ -82,9 +106,13 @@
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=3" width="100%"/>
 
 <div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
+
+<br/><br/>
 
 <img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="150" alt="cute cat"/>
 
