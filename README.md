@@ -67,7 +67,7 @@ cat_status: animated ✅
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=EkaterinaBoichuk&theme=radical&hide_border=true&border_radius=15&fire=FF6EC7&ring=FF6EC7&currStreakLabel=FF6EC7" />
+<img src="https://streak-stats.demolab.com?user=EkaterinaBoichuk&theme=radical&hide_border=true&border_radius=15&fire=FF6EC7&ring=FF6EC7&currStreakLabel=FF6EC7" />
 
 </div>
 
