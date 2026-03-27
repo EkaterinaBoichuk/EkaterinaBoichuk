@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Ekaterina%20Boichuk&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=QA%20Engineer%20%7C%20Automation%20QA&descAlignY=55&descSize=18" width="100%"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=2500&pause=400&color=FF6EC7&center=true&vCenter=true&width=700&lines=🐱+Welcome+to+my+GitHub+profile!;🔍+QA+Engineer+%7C+Automation+QA;☕+Java+%7C+TypeScript+%7C+Python;🤖+Test+automation+is+my+superpower;✨+Bug+hunter+by+day%2C+coder+by+night" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=2500&pause=400&color=FF6EC7&center=true&vCenter=true&width=700&lines=🐱+Welcome+to+my+GitHub+profile!;🔍+QA+Engineer+%7C+Automation+QA;☕+Java+%7C+TypeScript+%7C+Python;✨+Bug+hunter+by+day%2C+coder+by+night" alt="Typing SVG" />
 
 
 
