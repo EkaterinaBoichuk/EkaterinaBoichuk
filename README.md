@@ -6,6 +6,7 @@
 
 <img src="cat-walk.svg" width="100%" alt="walking cat"/>
 
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif"/>
   <source media="(prefers-color-scheme: light)" srcset="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif"/>
